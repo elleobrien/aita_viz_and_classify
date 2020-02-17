@@ -1,0 +1,14 @@
+md5: 968e0e8d5dee934a0627df650a88b906
+locked: true
+deps:
+- path: aita_clean.csv
+  repo:
+    url: https://github.com/iterative/aita_dataset
+    rev: v.20.0
+    rev_lock: c09235672eb7720f09e1cc4cc055f5c4f3f5286d
+outs:
+- md5: 0e5d7dbfc480cf7dcfaf5e341c3dde05
+  path: aita_clean.csv
+  cache: true
+  metric: false
+  persist: false
